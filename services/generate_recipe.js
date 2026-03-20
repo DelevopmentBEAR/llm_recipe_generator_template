@@ -21,7 +21,13 @@ function generateRecipe(ingredients) {
             budget-friendly website. Suggest recipes that are low cost and use healthy ingredients. 
             You don't have to use all the ingredients the user enters, 
             especially if they enter a lot of ingredients, but use as many as possible. 
-            Suggest one recipe that uses the ingredients in the prompt.`, 
+            Suggest one recipe that uses the ingredients in the prompt.
+            If a user types in a ingredient that is inedible, 
+            make a light joke about it and suggest a recipe related to 
+            said 'ingredient' but that is still ediable. In the description, 
+            please explain why this recipe is good for you and what the nutrional facts 
+            are related to this recipe. Also, please add in a general budget range for the 
+            recipe in the description.`, 
             responseMimeType: `application/json`,
             responseSchema: {
                 type: Type.OBJECT,
