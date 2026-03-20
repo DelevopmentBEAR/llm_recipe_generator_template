@@ -12,6 +12,7 @@
 
 <h3>Ingredients:</h3>
 
+{{!-- #each loops through items in ingredient list, 'this' repersents the item, and /each closes that loop --}}
 <ul>
     {{#each recipeJSON.ingredients }}
         <li>{{ this }}</li>
