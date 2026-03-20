@@ -1,0 +1,13 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.header {
+    background-color: lightblue !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#submit-button {
+    background-color: lightblue !important;
+    border-color: aliceblue !important;
+}
